@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.side-nav{
+    display: flex;
+    height: 100px;
+    background-color: blue;
+}
+
+    
+.side-nav img{
+    width: 200px;
+    height: 200px;
+}
+
+
+   
+
+header{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    color: #1A184E;
+    font-size:20px;
+    font-weight: bolder;}
+
+
+    .content{
+        width: 100%;
+        display: flex;
+        align-items: center;
+       flex-direction: column;
+       background-color: #1A184E;
+       color: white;
+       height: 500px;
+
+    }
+
+    .content img{
+        height: 300px;
+        width: 300px;
+       
+    }
